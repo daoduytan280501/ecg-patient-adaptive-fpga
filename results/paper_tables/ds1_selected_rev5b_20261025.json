@@ -1,0 +1,87 @@
+{
+ "selected": {
+  "GA-R": {
+   "hp": {
+    "beta": 0.1,
+    "cap": 1.0,
+    "trust": 0.5,
+    "lr": 0.05
+   },
+   "mF1_clean": 0.5752002975634984,
+   "mF1_uniform": 0.5802663327939609,
+   "mF1_pair": 0.5764978205231573,
+   "S_rob": 0.5773214836268722,
+   "n_unstable": 0
+  },
+  "gate:GA-R": {
+   "hp": {
+    "beta": 0.1,
+    "cap": 1.0,
+    "trust": 0.5,
+    "lr": 0.05,
+    "delta": 0.05
+   },
+   "mF1_clean": 0.5755464692473864,
+   "mF1_uniform": 0.5783356914472717,
+   "mF1_pair": 0.5770374748809056,
+   "S_rob": 0.5769732118585212,
+   "n_unstable": 0
+  },
+  "gradient_anchor": {
+   "hp": {
+    "beta": 0.3,
+    "lr": 0.2
+   },
+   "mF1_clean": 0.5855930279181267,
+   "mF1_uniform": 0.3738893181212833,
+   "mF1_pair": 0.4946728356711525,
+   "S_rob": 0.4847183939035209,
+   "n_unstable": 0
+  },
+  "head_global": {
+   "hp": {
+    "lr": 0.2,
+    "epochs": 300
+   },
+   "mF1_clean": 0.6213746455656227,
+   "mF1_uniform": 0.2900501584618789,
+   "mF1_pair": 0.4802220821653225,
+   "S_rob": 0.463882295397608,
+   "n_unstable": 0
+  },
+  "head_scratch": {
+   "hp": {
+    "lr": 0.05,
+    "epochs": 50
+   },
+   "mF1_clean": 0.6113557024036405,
+   "mF1_uniform": 0.2794195952396132,
+   "mF1_pair": 0.4021932131971019,
+   "S_rob": 0.4309895036134518,
+   "n_unstable": 0
+  },
+  "offset_int": {
+   "hp": {
+    "tau": 20,
+    "fbits": 8
+   },
+   "mF1_clean": 0.4929427653883546,
+   "mF1_uniform": 0.490975541444586,
+   "mF1_pair": 0.4604444892028671,
+   "S_rob": 0.4814542653452693,
+   "n_unstable": 0
+  }
+ },
+ "grid_eta": [
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.5
+ ],
+ "n_candidates": 282,
+ "n_unstable_excluded": 12,
+ "proposed_GA_R": "GA-R",
+ "rule": "S_rob cao nhat trong cac cau hinh on dinh (nhan doi <= 0.05% khi emb nhieu 1e-12); eta them vao luoi sau khi phat hien GD dao dong (eta=0.5)"
+}

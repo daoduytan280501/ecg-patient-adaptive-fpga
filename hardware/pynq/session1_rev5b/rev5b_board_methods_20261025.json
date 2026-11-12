@@ -1,0 +1,55 @@
+{
+ "offset_int_tau20": {
+  "method": "offset_int",
+  "hp": {
+   "tau": 20,
+   "fbits": 8
+  },
+  "jk": 0.8581879069539988
+ },
+ "GA_R": {
+  "method": "GA-S",
+  "hp": {
+   "beta": 0.1,
+   "cap": 1.0,
+   "trust": 0.5,
+   "lr": 0.05
+  },
+  "jk": 0.8841123579191277
+ },
+ "GA_R_gate": {
+  "method": "gate:GA-S",
+  "hp": {
+   "beta": 0.1,
+   "cap": 1.0,
+   "trust": 0.5,
+   "lr": 0.05,
+   "delta": 0.05
+  },
+  "jk": 0.8841123579191277
+ },
+ "gradient_anchor": {
+  "method": "gradient_anchor",
+  "hp": {
+   "beta": 0.3,
+   "lr": 0.2
+  },
+  "jk": 0.8418520922508766
+ },
+ "head_scratch": {
+  "method": "head_scratch",
+  "hp": {
+   "lr": 0.05,
+   "epochs": 50
+  },
+  "jk": 0.890734573721556
+ },
+ "head_global": {
+  "method": "head_global",
+  "hp": {
+   "lr": 0.2,
+   "epochs": 300
+  },
+  "jk": 0.8762933499619798
+ }
+}

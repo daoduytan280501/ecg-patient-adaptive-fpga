@@ -1,0 +1,15 @@
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.02, 'epochs': 100, 'lam': 0.01} None S_rob=0.5429 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.02, 'epochs': 300, 'lam': 0.0} None S_rob=0.5670 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.02, 'epochs': 300, 'lam': 0.1} None S_rob=0.5574 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.02, 'epochs': 600, 'lam': 0.01} None S_rob=0.5764 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 100, 'lam': 0.0} None S_rob=0.5617 unstable=1
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 100, 'lam': 0.1} None S_rob=0.5552 unstable=1
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 300, 'lam': 0.01} None S_rob=0.5773 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 600, 'lam': 0.0} None S_rob=0.5750 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 600, 'lam': 0.1} None S_rob=0.5673 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.1, 'epochs': 100, 'lam': 0.01} None S_rob=0.5585 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.1, 'epochs': 300, 'lam': 0.0} None S_rob=0.5596 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.1, 'epochs': 300, 'lam': 0.1} None S_rob=0.5512 unstable=0
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.1, 'epochs': 600, 'lam': 0.01} None S_rob=0.5599 unstable=1
+GA-S {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'epochs': 300, 'lam': 0.01} 5 S_rob=0.5747 unstable=0
+XONG 14

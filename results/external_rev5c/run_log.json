@@ -1,0 +1,113 @@
+{
+ "notebook": "notebooks/ecg_ext_validation_rev5c_20261029.ipynb",
+ "run_at": "2026-10-29T03:37:26.652753+00:00",
+ "python": "3.13.18",
+ "numpy": "2.1.3",
+ "scipy": "1.16.3",
+ "tensorflow": "2.21.0",
+ "wfdb": "4.3.1",
+ "input_sha256": {
+  "hw_ref.py": "a5b558b5eee4825803bf6f54e3e82c469f79bdde251e0d9299be70745762f8c6",
+  "pa_adapt.py": "a494210824a94a5ec56f7922f75bf13854c9f9ce5365d933b20d7d91eb6b48fe",
+  "exp4_best_hp_DS1.json": "ba5e91aec287e0b502b41344072ffa2a11adb8e4967c585debbf43f11bd463d0",
+  "f2a_board_results_100MHz.npz": "7b818ed6b275ac8d7113de9bd0b801ecd4f521890e8f7c2458192ebe0c0e6a04",
+  "ds1_selected_rev5b_20261025.json": "4a5abf2e211522cafabee815b136fc25265bbde1c999a0a2218e8f6750fbdc2c",
+  "rev4_methods.py": "8ef68f1f8aa95a6adeff10205828994cb3094a46f9f8001b4190776a796802ff",
+  "fair_methods.py": "406117c93a742f9a34874c896542f0c18e617a806cdc31dc670f42330e0f3d54",
+  "e13_selected.json": "b340f613251c5403067ddb380b57746ad18e46f963de13abc0341d43f0d6a18b",
+  "F2_rr8_str_s1.keras": "e0ece5a5def3e0082ced8e11660bcfb4191f414229182ff1b7653a3c947c8af3",
+  "F2_rr8_str_s1_quant.json": "5da3cb474e0e08f623dc1746ca9badaa2c1f8903b7be0b7f1b58dbf865e03d1a",
+  "F2_rr8_str_s2.keras": "799c72e3f39b8c1479196fc4f453995d005b12e3deffce98e964bd6b344626c0",
+  "F2_rr8_str_s2_quant.json": "8efe90cc8630dbcb481aa4a50d6be6d2743359cc7ba4f47910b26d82b3d20319",
+  "F2_rr8_str_s3.keras": "22c1c3b660a96a3ce41b1447ba5c4b01abfb28911f47b361962dfc8b5500c752",
+  "F2_rr8_str_s3_quant.json": "a46acc56ecd59747e044fcd5b840a213a1f06d0c3ae57830ad8ba8745459d3ba",
+  "F2_rr8_str_s4.keras": "41777870f02d1c67415a6a4a9b757287f1d455a059bc02039c076cd308d208d1",
+  "F2_rr8_str_s4_quant.json": "4bdd30e374848a1b068db35c7bae614b1680f6cc5245a10fd145456616b62640",
+  "F2_rr8_str_s5.keras": "d69bb43f4561d8c3fb29b548a1fb5a0060085bb13917e4a71cdf8560b56a02de",
+  "F2_rr8_str_s5_quant.json": "7d3a2925da013b073a175f239212fba6d3805593b1a0bc521ee9c8e300398247"
+ },
+ "hyperparameters": {
+  "none": {},
+  "head_scratch": {
+   "lr": 0.05,
+   "epochs": 50
+  },
+  "head_scratch_fair": {
+   "lr": 0.05,
+   "epochs": 300,
+   "cap": 1.0,
+   "lam": 0.0,
+   "absent": "fix"
+  },
+  "head_global": {
+   "lr": 0.2,
+   "epochs": 300
+  },
+  "offset_int": {
+   "tau": 20,
+   "fbits": 8
+  },
+  "gradient_anchor": {
+   "beta": 0.3,
+   "lr": 0.2
+  },
+  "GA-R": {
+   "beta": 0.1,
+   "cap": 1.0,
+   "trust": 0.5,
+   "lr": 0.05
+  }
+ },
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "checks": {
+  "fast_vs_hw_ref": "bit-exact (1500 DS2 beats x 5 seeds)",
+  "board_seed3_DS2": "0 mismatches (none, offset_int, gradient_anchor)",
+  "ds2_none_acc_seed3": 0.9400994984793248
+ },
+ "data": {
+  "incartdb": {
+   "records": 75,
+   "beats": 175676,
+   "eval_beats": 147324,
+   "eval_counts": {
+    "N": 128586,
+    "S": 1655,
+    "V": 16892,
+    "F": 191
+   }
+  },
+  "svdb": {
+   "records": 78,
+   "beats": 184307,
+   "eval_beats": 153522,
+   "eval_counts": {
+    "N": 134871,
+    "S": 10389,
+    "V": 8240,
+    "F": 22
+   }
+  }
+ },
+ "outputs": [
+  "ext_int_vs_old_fakequant.csv",
+  "ext_rev5c_harm.csv",
+  "ext_rev5c_incartdb_average_stats.csv",
+  "ext_rev5c_incartdb_gross.csv",
+  "ext_rev5c_incartdb_gross_summary.csv",
+  "ext_rev5c_incartdb_per_record.csv",
+  "ext_rev5c_incartdb_wilcoxon.csv",
+  "ext_rev5c_summary_all.csv",
+  "ext_rev5c_svdb_average_stats.csv",
+  "ext_rev5c_svdb_gross.csv",
+  "ext_rev5c_svdb_gross_summary.csv",
+  "ext_rev5c_svdb_per_record.csv",
+  "ext_rev5c_svdb_wilcoxon.csv",
+  "tab_ext_rev5c.tex"
+ ]
+}

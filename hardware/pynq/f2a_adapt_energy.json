@@ -1,0 +1,68 @@
+{
+ "idle_w": [
+  3.2458080808080814,
+  3.2432828282828288
+ ],
+ "adapt": {
+  "offset_int": {
+   "seconds": 15.010684554000022,
+   "reps": 1347,
+   "n_records": 29634,
+   "p_mean_w": 3.525650684931507,
+   "t_per_record_ms": 0.5065358896537767,
+   "p_active_w": 0.28110523038605173,
+   "energy_mJ_per_record": 0.14238988795992863
+  },
+  "head_scratch": {
+   "seconds": 15.963634456000023,
+   "reps": 6,
+   "n_records": 132,
+   "p_mean_w": 3.50297124600639,
+   "t_per_record_ms": 120.93662466666684,
+   "p_active_w": 0.2584257914609349,
+   "energy_mJ_per_record": 31.253142946097398
+  },
+  "gradient_anchor": {
+   "seconds": 16.564105568000002,
+   "reps": 3,
+   "n_records": 66,
+   "p_mean_w": 3.4972392638036816,
+   "t_per_record_ms": 250.9712964848485,
+   "p_active_w": 0.2526938092582265,
+   "energy_mJ_per_record": 63.41889292323212
+  }
+ },
+ "memory": {
+  "offset_int": {
+   "peak_kB_max": 53.25,
+   "peak_kB_mean": 36.68665660511363
+  },
+  "head_scratch": {
+   "peak_kB_max": 352.796875,
+   "peak_kB_mean": 240.27712180397728
+  },
+  "gradient_anchor": {
+   "peak_kB_max": 488.61328125,
+   "peak_kB_mean": 356.6051136363636
+  }
+ },
+ "buffers": {
+  "emb_cal_int8_kB": 17.21875,
+  "labels_cal_kB": 0.5380859375,
+  "anchors_kB": 3.22265625,
+  "head_regs_B": 144
+ },
+ "ft_estimate": {
+  "ft_full": {
+   "t_est_s_per_record": 67.1409722445548,
+   "energy_est_J_per_record": 53.341115348025404
+  },
+  "ft_full_anchor": {
+   "t_est_s_per_record": 85.13465465873686,
+   "energy_est_J_per_record": 67.63645628670928
+  }
+ },
+ "t_fwd_ms": 1.9992980460202294,
+ "p_fwd_w": 0.7944644464446435,
+ "fclk_mhz": 99.999
+}

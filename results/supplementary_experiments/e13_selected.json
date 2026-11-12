@@ -1,0 +1,63 @@
+{
+ "S_rob": {
+  "hp": {
+   "lr": 0.05,
+   "epochs": 300,
+   "cap": 1.0,
+   "lam": 0.0,
+   "absent": "fix"
+  },
+  "mF1_clean": 0.5728994028180296,
+  "mF1_uniform": 0.5649320753849566,
+  "mF1_pair": 0.5625016153032523,
+  "S_rob": 0.5667776978354129,
+  "n_unstable": 1,
+  "stable": true
+ },
+ "clean": {
+  "hp": {
+   "lr": 0.2,
+   "epochs": 300,
+   "cap": 3.0,
+   "lam": 0.0,
+   "absent": "global"
+  },
+  "mF1_clean": 0.6250905444887327,
+  "mF1_uniform": 0.2067955043911063,
+  "mF1_pair": 0.3892721281017076,
+  "S_rob": 0.4070527256605156,
+  "n_unstable": 0,
+  "stable": true
+ },
+ "GA_R_S_rob": {
+  "hp": {
+   "beta": 0.1,
+   "cap": 1.0,
+   "trust": 0.5,
+   "lr": 0.05
+  },
+  "mF1_clean": 0.5752002975634984,
+  "mF1_uniform": 0.5802663327939609,
+  "mF1_pair": 0.5764978205231573,
+  "S_rob": 0.5773214836268722,
+  "n_unstable": 0,
+  "stable": true
+ },
+ "GA-R_clean": {
+  "hp": {
+   "beta": 0.1,
+   "cap": 10.0,
+   "trust": 1.0,
+   "lr": 0.2
+  },
+  "mF1_clean": 0.6073950880611272,
+  "mF1_uniform": 0.2850387165863559,
+  "mF1_pair": 0.4819648179446217,
+  "S_rob": 0.4581328741973682,
+  "n_unstable": 0,
+  "stable": true
+ },
+ "n_configs": 216,
+ "n_unstable": 2,
+ "rule": "protocol_bosung_20261026.md E13"
+}

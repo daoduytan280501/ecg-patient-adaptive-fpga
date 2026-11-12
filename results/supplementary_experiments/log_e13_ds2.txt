@@ -1,0 +1,80 @@
+                                  jk  macroF1    Se_S    PP_S    Se_F
+method                                                               
+GA-R                          0.8820   0.7991  0.8674  0.8590  0.7547
+GA-R (mF1 sach)               0.8715   0.7847  0.9080  0.7982  0.7094
+head_scratch                  0.8852   0.7919  0.7486  0.9939  0.5986
+head_scratch_fair             0.8856   0.7986  0.7405  0.9983  0.7324
+head_scratch_fair (mF1 sach)  0.8724   0.7807  0.7656  0.9809  0.7603
+none                          0.6451   0.5727  0.3052  0.3464  0.0530
+nhieu head_scratch_fair
+nhieu head_scratch_fair (mF1 sach)
+nhieu GA-R (mF1 sach)
+{
+ "harm": {
+  "head_scratch_fair": {
+   "clean": 4,
+   "noisy_each": [
+    4,
+    5,
+    5,
+    3,
+    3,
+    12,
+    3,
+    3,
+    4
+   ],
+   "noisy_mean": 4.666666666666667
+  },
+  "head_scratch_fair (mF1 sach)": {
+   "clean": 3,
+   "noisy_each": [
+    3,
+    3,
+    3,
+    16,
+    18,
+    18,
+    15,
+    18,
+    21
+   ],
+   "noisy_mean": 12.777777777777779
+  },
+  "GA-R (mF1 sach)": {
+   "clean": 0,
+   "noisy_each": [
+    0,
+    0,
+    0,
+    3,
+    5,
+    9,
+    13,
+    15,
+    17
+   ],
+   "noisy_mean": 6.888888888888889
+  }
+ },
+ "noisy_mean_jk": {
+  "head_scratch_fair": 0.8381891731780203,
+  "head_scratch_fair (mF1 sach)": 0.5187233722296188,
+  "GA-R (mF1 sach)": 0.6066325077634391
+ },
+ "absent_Se": {
+  "GA-R": 0.5665689149560117,
+  "GA-R (mF1 sach)": 0.6516129032258065,
+  "head_scratch": 0.0,
+  "head_scratch_fair": 0.0,
+  "head_scratch_fair (mF1 sach)": 0.002346041055718475,
+  "none": 0.644574780058651
+ }
+}
+                         method   ref  improved  degraded         p    median    p_holm
+0             head_scratch_fair  none        13         6  0.398063  0.000393  0.398063
+1  head_scratch_fair (mF1 sach)  none        15         5  0.085924  0.002055  0.171848
+2               GA-R (mF1 sach)  none        18         3  0.000796  0.037990  0.002389
+3             head_scratch_fair  GA-R         8         6  0.300290  0.000000  0.900870
+4  head_scratch_fair (mF1 sach)  GA-R         8         7  0.649563  0.000000  0.900870
+5                  head_scratch  GA-R         7         6  0.310897  0.000000  0.900870

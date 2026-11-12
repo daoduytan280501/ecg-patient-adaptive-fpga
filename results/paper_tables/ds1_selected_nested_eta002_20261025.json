@@ -1,0 +1,102 @@
+{
+ "selected": {
+  "offset_int": {
+   "hp": {
+    "tau": 20,
+    "fbits": 8
+   },
+   "mF1_clean": 0.4929427653883546,
+   "jk_clean": 0.5717021600052438,
+   "mF1_uniform": 0.49097554144458605,
+   "jk_uniform": 0.5595701321231068,
+   "mF1_pair": 0.4604444892028671,
+   "jk_pair": 0.49850733717423573,
+   "S_rob": 0.4814542653452693,
+   "n_unstable": 0,
+   "stable": true
+  },
+  "head_scratch": {
+   "hp": {
+    "lr": 0.02,
+    "epochs": 150
+   },
+   "mF1_clean": 0.6118536436239683,
+   "jk_clean": 0.7199053146148147,
+   "mF1_uniform": 0.268529708140591,
+   "jk_uniform": 0.30699490813172053,
+   "mF1_pair": 0.4026032616276946,
+   "jk_pair": 0.3917412484625949,
+   "S_rob": 0.4276622044640847,
+   "n_unstable": 1,
+   "stable": true
+  },
+  "head_global": {
+   "hp": {
+    "lr": 0.02,
+    "epochs": 300
+   },
+   "mF1_clean": 0.6143853677527379,
+   "jk_clean": 0.7302145770566628,
+   "mF1_uniform": 0.24809305192216938,
+   "jk_uniform": 0.2769940547737908,
+   "mF1_pair": 0.39003187092685,
+   "jk_pair": 0.37883396314424705,
+   "S_rob": 0.4175034302005858,
+   "n_unstable": 0,
+   "stable": true
+  },
+  "gradient_anchor": {
+   "hp": {
+    "beta": 0.5,
+    "lr": 0.02
+   },
+   "mF1_clean": 0.5735298914997761,
+   "jk_clean": 0.6825812236421234,
+   "mF1_uniform": 0.3706366526085796,
+   "jk_uniform": 0.3362274473900738,
+   "mF1_pair": 0.4283320363814817,
+   "jk_pair": 0.4141423058184932,
+   "S_rob": 0.45749952682994577,
+   "n_unstable": 1,
+   "stable": true
+  },
+  "GA-R": {
+   "hp": {
+    "beta": 0.1,
+    "cap": 1.0,
+    "trust": 0.5,
+    "lr": 0.02
+   },
+   "mF1_clean": 0.5603854771651948,
+   "jk_clean": 0.6829256321880739,
+   "mF1_uniform": 0.5709028488215434,
+   "jk_uniform": 0.6927807380130765,
+   "mF1_pair": 0.5641884540767916,
+   "jk_pair": 0.680453988516804,
+   "S_rob": 0.5651589266878433,
+   "n_unstable": 0,
+   "stable": true
+  },
+  "gate:GA-R": {
+   "hp": {
+    "beta": 0.1,
+    "cap": 1.0,
+    "trust": 0.5,
+    "lr": 0.02,
+    "delta": 0.02
+   },
+   "mF1_clean": 0.5604086185061884,
+   "jk_clean": 0.6828352001419555,
+   "mF1_uniform": 0.5692914480405553,
+   "jk_uniform": 0.688509709493475,
+   "mF1_pair": 0.5677941626987556,
+   "jk_pair": 0.6865980501540383,
+   "S_rob": 0.5658314097484998,
+   "n_unstable": 0,
+   "stable": true
+  }
+ },
+ "n_eval_beats": 199780,
+ "tol": 99.89,
+ "rule": "S_rob cao nhat trong cac cau hinh on dinh (nhan doi <= 0.05% khi emb nhieu 1e-12)"
+}

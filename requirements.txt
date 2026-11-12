@@ -1,0 +1,8 @@
+# Versions used for the PC-side analyses (Python 3.13)
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+wfdb==4.3.1
+tensorflow==2.21.0      # only for training / re-building fold models and embeddings
+# Board side (Kria KV260): PYNQ on Ubuntu 22.04, see hardware/pynq/

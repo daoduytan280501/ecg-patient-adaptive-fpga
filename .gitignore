@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+desktop.ini
+# large files are archived on Zenodo, not in git
+large_files_for_zenodo/*.pkl
+large_files_for_zenodo/embeddings/
+physionet/

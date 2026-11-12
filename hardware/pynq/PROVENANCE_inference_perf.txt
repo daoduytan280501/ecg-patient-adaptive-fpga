@@ -1,0 +1,18 @@
+Nguon goc so lieu nang luong phien B (Bang 8 ban thao BSPC)
+==========================================================
+f2a_inference_perf.json  (khoi phuc ngay 2026-10-20)
+  - Chay luc 2026-10-18 23:47:42 UTC (06:47 ngay 19/10 gio VN) bang kv260_f2a_inference_perf.ipynb, fclk 99.999 MHz.
+  - Cong suat nen: truoc 3.2175 W, sau 3.2178 W (chenh 0.0003 W) -> phien do HOP LE.
+  - F2A suy luan: dP 0.2270 W, 0.8943 ms/nhip -> 0.2030 mJ/nhip
+  - F2A + doc emb: dP 0.2157 W -> 0.1950 mJ/nhip
+  - ARM float32 theo lo: dP 0.7858 W, 2.0355 ms/nhip -> 1.5996 mJ/nhip; tiet kiem 87.3 %
+  - SHA-256: c9efdf337ed232f603b26ceecc8bc4ae0c3cd87ff663c19117ea3ef6203a2349
+  - Ban nay duoc chep ve may phan tich luc 2026-10-18 23:53 UTC (truoc khi bi ghi de) va da dung de viet Bang 8.
+
+Su co: luc 2026-10-19 ~00:35 UTC, ket qua lan chay thu hai (run_at 2026-10-19 00:29:19 UTC) duoc tai len
+voi cung ten f2a_inference_perf.json va GHI DE ban hop le tren. Ban ghi de giong het
+f2a_inference_perf_run2_20261019.json.
+
+f2a_inference_perf_run2_20261019.json
+  - Cong suat nen truoc 3.873 W, sau 3.683 W (chenh 0.191 W, board vua khoi dong lai) -> KHONG dung de tinh nang luong.
+  - Do tre cua lan nay van dung duoc de doi chieu (khong phu thuoc cong suat nen).

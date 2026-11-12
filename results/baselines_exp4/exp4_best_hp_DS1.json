@@ -1,0 +1,42 @@
+{
+ "offset": {
+  "tau": 5.0
+ },
+ "offset_int": {
+  "tau": 5,
+  "fbits": 8
+ },
+ "gradient": {
+  "lam": 0.01,
+  "lr": 0.5,
+  "epochs": 300
+ },
+ "gradient_anchor": {
+  "beta": 0.1,
+  "lam": 0.01,
+  "lr": 0.5,
+  "epochs": 300
+ },
+ "offset_gradient": {
+  "tau": 5.0,
+  "lam": 0.1,
+  "lr": 0.5,
+  "epochs": 300
+ },
+ "head_scratch": {
+  "lr": 0.5,
+  "epochs": 150
+ },
+ "ft_full": {
+  "lr": 0.0005,
+  "epochs": 30
+ },
+ "ft_full_anchor": {
+  "lr": 0.0005,
+  "epochs": 30
+ },
+ "scratch_patient": {
+  "lr": 0.001,
+  "epochs": 30
+ }
+}

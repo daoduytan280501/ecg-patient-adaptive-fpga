@@ -1,0 +1,2 @@
+method,ref,unit,n,better,worse,median_gain,p
+GA-R,offset_int,record (n=90),90,65,25,0.004499272859225745,0.00383993203294575

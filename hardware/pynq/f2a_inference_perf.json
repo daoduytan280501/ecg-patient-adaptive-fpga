@@ -1,0 +1,94 @@
+{
+ "notebook": "kv260_f2a_inference_perf.ipynb",
+ "run_at": "2026-10-18 23:47:42 +0000",
+ "host": {
+  "kernel": "5.15.0-1077-xilinx-zynqmp",
+  "python": "3.10.12",
+  "numpy": "1.26.4",
+  "pynq": "3.0.1"
+ },
+ "fclk_mhz": 99.999,
+ "head_readback_ok": true,
+ "bitexact": {
+  "n": 1000,
+  "T1_logits": true,
+  "T1_emb": true,
+  "T3_logits": true
+ },
+ "latency": {
+  "infer": {
+   "invocation_ms": 0.818413500155657,
+   "axi_inclusive_ms": 0.858288499784976,
+   "invocation_p95_ms": 0.8212780498752181,
+   "axi_p95_ms": 0.8611600001131592,
+   "invocation_mean_ms": 0.8183850899968093,
+   "axi_mean_ms": 0.858359766657486,
+   "host_cycles": 81841,
+   "n": 300,
+   "warmup": 50
+  },
+  "infer_emb": {
+   "invocation_ms": 0.818143500282531,
+   "axi_inclusive_ms": 0.8697334999396844,
+   "invocation_p95_ms": 0.8215379998546268,
+   "axi_p95_ms": 0.8738209999364699,
+   "invocation_mean_ms": 0.8184811766765657,
+   "axi_mean_ms": 0.8701971533264441,
+   "host_cycles": 81814,
+   "n": 300,
+   "warmup": 50
+  },
+  "write_head_us": {
+   "median": 72.3154998922837,
+   "p95": 73.20294985220244
+  }
+ },
+ "ds2_throughput": {
+  "beats": 49649,
+  "seconds_run": 42.97176284199986,
+  "seconds_prep": 1.175113897999836,
+  "ms_per_beat": 0.865511145078448,
+  "beats_per_s": 1155.3866240617413,
+  "acc_global_head": 0.9400994984793248
+ },
+ "power_sensor": {
+  "mode": "hwmon",
+  "channels": [
+   "ina260_u14:power1_input"
+  ],
+  "listing": "ina260_u14:power1_input: 3.550 W"
+ },
+ "power": {
+  "idle_w": 3.2176515151515144,
+  "idle_before_w": 3.217525252525252,
+  "idle_after_w": 3.217777777777777,
+  "fpga_infer": {
+   "p_mean_w": 3.4446875,
+   "p_active_w": 0.22703598484848575,
+   "seconds": 16.097793769999953,
+   "beats": 18000,
+   "ms_per_beat": 0.8943218761111085,
+   "energy_active_mJ": 0.20304324791443099,
+   "n_samples": 192
+  },
+  "fpga_infer_emb": {
+   "p_mean_w": 3.4333684210526316,
+   "p_active_w": 0.21571690590111725,
+   "seconds": 16.2708522060002,
+   "beats": 18000,
+   "ms_per_beat": 0.9039362336666777,
+   "energy_active_mJ": 0.19499432745848505,
+   "n_samples": 285
+  },
+  "arm_f32_batch": {
+   "p_mean_w": 4.0035,
+   "p_active_w": 0.7858484848484855,
+   "seconds": 16.283775071000036,
+   "beats": 8000,
+   "ms_per_beat": 2.0354718838750046,
+   "energy_active_mJ": 1.5995724958948647,
+   "n_samples": 320
+  },
+  "reduction_vs_arm_batch": 0.873064054029736
+ }
+}

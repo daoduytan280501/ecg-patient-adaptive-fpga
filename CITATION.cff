@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Code and results for: Robust and Energy-Efficient Patient-Adaptive ECG Classification Through FPGA-ARM Co-Design"
+authors:
+  - family-names: Dao
+    given-names: Duy-Tan
+    affiliation: "Phenikaa University; University of Economics - Technology for Industries"
+  - family-names: Le
+    given-names: Thuan Van
+    affiliation: "Phenikaa University"
+version: "1.0"
+date-released: 2026-11-12
+license: MIT

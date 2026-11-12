@@ -1,0 +1,140 @@
+{
+ "fclk_mhz": 99.999,
+ "idle_w": [
+  3.211464646464647,
+  3.2053535353535354
+ ],
+ "bitexact": {
+  "head_scratch_fair": {
+   "mismatch_vs_ref": 0,
+   "jk": 0.8902847494197712,
+   "acc": 0.9737210424710425,
+   "macroF1": 0.8094501349640546,
+   "jk_ref": 0.8902847494197712,
+   "t_adapt_ms_mean": 240.831716544397,
+   "t_adapt_ms_max": 289.7982310387306
+  },
+  "GA_R": {
+   "mismatch_vs_ref": 0,
+   "jk": 0.8841123579191277,
+   "acc": 0.9708976833976835,
+   "macroF1": 0.8042363755491682,
+   "jk_ref": 0.8841123579191277,
+   "t_adapt_ms_mean": 264.97065367452296,
+   "t_adapt_ms_max": 328.86775996303186
+  },
+  "offset_int_tau20": {
+   "mismatch_vs_ref": 0,
+   "jk": 0.8581879069539988,
+   "acc": 0.9717905405405406,
+   "macroF1": 0.7943775553620164,
+   "jk_ref": 0.8581879069539988,
+   "t_adapt_ms_mean": 0.7985742228232663,
+   "t_adapt_ms_max": 0.8766960236243904
+  },
+  "head_scratch": {
+   "mismatch_vs_ref": 0,
+   "jk": 0.890734573721556,
+   "acc": 0.974469111969112,
+   "macroF1": 0.8039420725478106,
+   "jk_ref": 0.890734573721556,
+   "t_adapt_ms_mean": 40.88774149634198,
+   "t_adapt_ms_max": 49.62454998167232
+  }
+ },
+ "energy": {
+  "head_scratch_fair": {
+   "seconds": 15.950109605037142,
+   "reps": 3,
+   "n_records": 66,
+   "p_mean_w": 3.448210862619808,
+   "t_per_record_ms": 241.66832734904762,
+   "p_active_w": 0.2398017717107166,
+   "energy_mJ_per_record": 57.95249306466704
+  },
+  "GA_R": {
+   "seconds": 17.597844500036445,
+   "reps": 3,
+   "n_records": 66,
+   "p_mean_w": 3.464231884057971,
+   "t_per_record_ms": 266.6340075763098,
+   "p_active_w": 0.2558227931488797,
+   "energy_mJ_per_record": 68.21105656665111
+  },
+  "offset_int_tau20": {
+   "seconds": 15.009936674963683,
+   "reps": 1283,
+   "n_records": 28226,
+   "p_mean_w": 3.4918150684931506,
+   "t_per_record_ms": 0.5317769671566528,
+   "p_active_w": 0.28340597758405917,
+   "energy_mJ_per_record": 0.15070877123371731
+  },
+  "head_scratch": {
+   "seconds": 15.33708215894876,
+   "reps": 17,
+   "n_records": 374,
+   "p_mean_w": 3.467209302325582,
+   "t_per_record_ms": 41.00824106670792,
+   "p_active_w": 0.25880021141649046,
+   "energy_mJ_per_record": 10.612941457882416
+  }
+ },
+ "memory": {
+  "head_scratch_fair": {
+   "peak_kB_max": 267.1171875,
+   "peak_kB_mean": 183.10191761363637
+  },
+  "GA_R": {
+   "peak_kB_max": 489.08203125,
+   "peak_kB_mean": 357.0738636363636
+  },
+  "offset_int_tau20": {
+   "peak_kB_max": 53.3359375,
+   "peak_kB_mean": 36.66122159090909
+  },
+  "head_scratch": {
+   "peak_kB_max": 352.8828125,
+   "peak_kB_mean": 240.3367365056818
+  }
+ },
+ "methods": {
+  "head_scratch_fair": {
+   "method": "head_scratch_fair",
+   "hp": {
+    "lr": 0.05,
+    "epochs": 300,
+    "cap": 1.0,
+    "lam": 0.0,
+    "absent": "fix"
+   },
+   "jk": 0.8902847494197712
+  },
+  "GA_R": {
+   "method": "GA-S",
+   "hp": {
+    "beta": 0.1,
+    "cap": 1.0,
+    "trust": 0.5,
+    "lr": 0.05
+   },
+   "jk": 0.8841123579191277
+  },
+  "offset_int_tau20": {
+   "method": "offset_int",
+   "hp": {
+    "tau": 20,
+    "fbits": 8
+   },
+   "jk": 0.8581879069539988
+  },
+  "head_scratch": {
+   "method": "head_scratch",
+   "hp": {
+    "lr": 0.05,
+    "epochs": 50
+   },
+   "jk": 0.890734573721556
+  }
+ }
+}

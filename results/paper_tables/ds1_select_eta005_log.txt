@@ -1,0 +1,54 @@
+offset_int         {'tau': 1, 'fbits': 8} S_rob=0.3872 unstable=0 
+offset_int         {'tau': 5, 'fbits': 8} S_rob=0.4572 unstable=0 
+offset_int         {'tau': 20, 'fbits': 8} S_rob=0.4815 unstable=0 
+head_scratch       {'lr': 0.05, 'epochs': 50} S_rob=0.4310 unstable=0 
+head_scratch       {'lr': 0.05, 'epochs': 150} S_rob=0.4225 unstable=0 
+head_scratch       {'lr': 0.05, 'epochs': 300} S_rob=0.4235 unstable=2 
+head_global        {'lr': 0.05, 'epochs': 50} S_rob=0.4041 unstable=0 
+head_global        {'lr': 0.05, 'epochs': 150} S_rob=0.4212 unstable=0 
+head_global        {'lr': 0.05, 'epochs': 300} S_rob=0.4227 unstable=0 
+gradient_anchor    {'beta': 0.1, 'lr': 0.05} S_rob=0.4439 unstable=0 
+gradient_anchor    {'beta': 0.3, 'lr': 0.05} S_rob=0.4538 unstable=0 
+gradient_anchor    {'beta': 0.5, 'lr': 0.05} S_rob=0.4559 unstable=1 
+GA-R               {'beta': 0.1, 'cap': 1.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.5563 unstable=1 
+GA-R               {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.5773 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 1.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.5768 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 1.0, 'trust': None, 'lr': 0.05} S_rob=0.5766 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 3.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4889 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 3.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.5111 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 3.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.5172 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 3.0, 'trust': None, 'lr': 0.05} S_rob=0.5171 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 10.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4286 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 10.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.4397 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 10.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.4429 unstable=0 
+GA-R               {'beta': 0.1, 'cap': 10.0, 'trust': None, 'lr': 0.05} S_rob=0.4430 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 1.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.5489 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.5639 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 1.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.5627 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 1.0, 'trust': None, 'lr': 0.05} S_rob=0.5625 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 3.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4930 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 3.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.5059 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 3.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.5081 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 3.0, 'trust': None, 'lr': 0.05} S_rob=0.5079 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 10.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4513 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 10.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.4544 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 10.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.4533 unstable=0 
+GA-R               {'beta': 0.3, 'cap': 10.0, 'trust': None, 'lr': 0.05} S_rob=0.4532 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 1.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.5381 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.5480 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 1.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.5474 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 1.0, 'trust': None, 'lr': 0.05} S_rob=0.5473 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 3.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4911 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 3.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.4964 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 3.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.4967 unstable=1 
+GA-R               {'beta': 0.5, 'cap': 3.0, 'trust': None, 'lr': 0.05} S_rob=0.4966 unstable=1 
+GA-R               {'beta': 0.5, 'cap': 10.0, 'trust': 0.25, 'lr': 0.05} S_rob=0.4598 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 10.0, 'trust': 0.5, 'lr': 0.05} S_rob=0.4590 unstable=0 
+GA-R               {'beta': 0.5, 'cap': 10.0, 'trust': 1.0, 'lr': 0.05} S_rob=0.4557 unstable=1 
+GA-R               {'beta': 0.5, 'cap': 10.0, 'trust': None, 'lr': 0.05} S_rob=0.4556 unstable=1 
+gate:GA-R          {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'delta': 0.0} S_rob=0.5743 unstable=0 
+gate:GA-R          {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'delta': 0.02} S_rob=0.5767 unstable=0 
+gate:GA-R          {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'delta': 0.05} S_rob=0.5770 unstable=0 
+
+CHON: {'offset_int': {'tau': 20, 'fbits': 8}, 'head_scratch': {'lr': 0.05, 'epochs': 50}, 'head_global': {'lr': 0.05, 'epochs': 300}, 'gradient_anchor': {'beta': 0.5, 'lr': 0.05}, 'GA-R': {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05}, 'gate:GA-R': {'beta': 0.1, 'cap': 1.0, 'trust': 0.5, 'lr': 0.05, 'delta': 0.05}}
+GA-R 0.5773214836268722 gate 0.5769732118585212

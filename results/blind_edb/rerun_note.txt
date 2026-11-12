@@ -1,0 +1,1 @@
+2026-10-29T01:36:17.801592+00:00 | notebook ecg_blind_edb_20261026c.ipynb | Lần 1 (26/10 chiều) dừng ở bước tải dữ liệu (wfdb.dl_database ghi từng tệp lên Drive quá chậm, phải tắt máy), chưa tính kết quả nào. Bản c chỉ đổi cách tải dữ liệu và lưu emb theo khối để chạy tiếp được khi bị ngắt. Phương pháp, tham số, tiền xử lý không đổi.

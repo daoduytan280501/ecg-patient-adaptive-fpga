@@ -1,0 +1,39 @@
+{
+ "head_scratch_fair": {
+  "method": "head_scratch_fair",
+  "hp": {
+   "lr": 0.05,
+   "epochs": 300,
+   "cap": 1.0,
+   "lam": 0.0,
+   "absent": "fix"
+  },
+  "jk": 0.8902847494197712
+ },
+ "GA_R": {
+  "method": "GA-S",
+  "hp": {
+   "beta": 0.1,
+   "cap": 1.0,
+   "trust": 0.5,
+   "lr": 0.05
+  },
+  "jk": 0.8841123579191277
+ },
+ "offset_int_tau20": {
+  "method": "offset_int",
+  "hp": {
+   "tau": 20,
+   "fbits": 8
+  },
+  "jk": 0.8581879069539988
+ },
+ "head_scratch": {
+  "method": "head_scratch",
+  "hp": {
+   "lr": 0.05,
+   "epochs": 50
+  },
+  "jk": 0.890734573721556
+ }
+}

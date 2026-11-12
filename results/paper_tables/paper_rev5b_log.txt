@@ -1,0 +1,13 @@
+Cấu hình: {"none": {}, "head_scratch": {"lr": 0.05, "epochs": 50}, "head_global": {"lr": 0.2, "epochs": 300}, "offset_int": {"tau": 20, "fbits": 8}, "gradient_anchor": {"beta": 0.3, "lr": 0.2}, "GA-R": {"beta": 0.1, "cap": 1.0, "trust": 0.5, "lr": 0.05}}
+1. bảng chính 10 s
+2. Wilcoxon 12 s
+3. ngân sách 36 s
+   nhiễu head_scratch 51 s
+   nhiễu head_global 117 s
+   nhiễu offset_int 119 s
+   nhiễu gradient_anchor 199 s
+   nhiễu GA-R 281 s
+4. nhiễu 281 s
+5. ablation 596 s
+6. số nguyên 600 s
+XONG 600 s
